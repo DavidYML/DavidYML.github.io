@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332C77B21E1BC13900938ED5 /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C77B11E1BC13900938ED5 /* InventoryTableViewController.swift */; };
+		332C77BB1E1CE21D00938ED5 /* Medicine+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C77BA1E1CE21D00938ED5 /* Medicine+Class.swift */; };
+		332C77BD1E1CE23400938ED5 /* Medicine+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C77BC1E1CE23400938ED5 /* Medicine+Properties.swift */; };
 		33671B3D1E1B940900641BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671B3C1E1B940900641BDF /* AppDelegate.swift */; };
 		33671B3F1E1B940900641BDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671B3E1E1B940900641BDF /* ViewController.swift */; };
 		33671B421E1B940900641BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33671B401E1B940900641BDF /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		33671B4A1E1B940900641BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33671B481E1B940900641BDF /* LaunchScreen.storyboard */; };
 		33671B551E1B940A00641BDF /* MyMedicinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671B541E1B940A00641BDF /* MyMedicinesTests.swift */; };
 		33671B601E1B940A00641BDF /* MyMedicinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671B5F1E1B940A00641BDF /* MyMedicinesUITests.swift */; };
+		33671B6E1E1BB9E200641BDF /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671B6D1E1BB9E200641BDF /* AddNewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332C77B11E1BC13900938ED5 /* InventoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
+		332C77BA1E1CE21D00938ED5 /* Medicine+Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Medicine+Class.swift"; sourceTree = "<group>"; };
+		332C77BC1E1CE23400938ED5 /* Medicine+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Medicine+Properties.swift"; sourceTree = "<group>"; };
 		33671B391E1B940900641BDF /* MyMedicines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMedicines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33671B3C1E1B940900641BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33671B3E1E1B940900641BDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		33671B5B1E1B940A00641BDF /* MyMedicinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMedicinesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33671B5F1E1B940A00641BDF /* MyMedicinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicinesUITests.swift; sourceTree = "<group>"; };
 		33671B611E1B940A00641BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33671B6D1E1BB9E200641BDF /* AddNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		33671B301E1B940900641BDF = {
 			isa = PBXGroup;
 			children = (
+				332C77BC1E1CE23400938ED5 /* Medicine+Properties.swift */,
+				332C77BA1E1CE21D00938ED5 /* Medicine+Class.swift */,
 				33671B3B1E1B940900641BDF /* MyMedicines */,
 				33671B531E1B940A00641BDF /* MyMedicinesTests */,
 				33671B5E1E1B940A00641BDF /* MyMedicinesUITests */,
@@ -106,6 +116,8 @@
 				33671B481E1B940900641BDF /* LaunchScreen.storyboard */,
 				33671B4B1E1B940900641BDF /* Info.plist */,
 				33671B431E1B940900641BDF /* MyMedicines.xcdatamodeld */,
+				33671B6D1E1BB9E200641BDF /* AddNewViewController.swift */,
+				332C77B11E1BC13900938ED5 /* InventoryTableViewController.swift */,
 			);
 			path = MyMedicines;
 			sourceTree = "<group>";
@@ -266,8 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33671B3F1E1B940900641BDF /* ViewController.swift in Sources */,
+				332C77B21E1BC13900938ED5 /* InventoryTableViewController.swift in Sources */,
 				33671B451E1B940900641BDF /* MyMedicines.xcdatamodeld in Sources */,
 				33671B3D1E1B940900641BDF /* AppDelegate.swift in Sources */,
+				332C77BD1E1CE23400938ED5 /* Medicine+Properties.swift in Sources */,
+				332C77BB1E1CE21D00938ED5 /* Medicine+Class.swift in Sources */,
+				33671B6E1E1BB9E200641BDF /* AddNewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,10 +437,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BBFD473U72;
 				INFOPLIST_FILE = MyMedicines/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cucumberapps.MyMedicines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,10 +452,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BBFD473U72;
 				INFOPLIST_FILE = MyMedicines/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cucumberapps.MyMedicines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +538,7 @@
 				33671B661E1B940A00641BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33671B671E1B940A00641BDF /* Build configuration list for PBXNativeTarget "MyMedicinesTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +547,7 @@
 				33671B691E1B940A00641BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33671B6A1E1B940A00641BDF /* Build configuration list for PBXNativeTarget "MyMedicinesUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +556,7 @@
 				33671B6C1E1B940A00641BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
