@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Medicine" representedClassName=".MyMedicine" syncable="YES">
+    <entity name="MyMedicine" representedClassName=".MyMedicine" syncable="YES">
         <attribute name="descriptions" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="expiryDate" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="indication" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prescription" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="medicine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Medicine" inverseName="medicine" inverseEntity="Medicine" syncable="YES"/>
+        <relationship name="medicine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyMedicine" inverseName="medicine" inverseEntity="MyMedicine" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Medicine" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="MyMedicine" positionX="-63" positionY="-18" width="128" height="135"/>
     </elements>
 </model>

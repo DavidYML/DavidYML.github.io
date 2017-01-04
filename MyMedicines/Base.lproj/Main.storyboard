@@ -87,7 +87,7 @@ Y2luZXMgY2FiaW5ldCBub3chA
         <!--Inventory Scene-->
         <scene sceneID="RX7-E1-057">
             <objects>
-                <tableViewController title="Inventory Scene" id="ILv-AT-Nf4" sceneMemberID="viewController">
+                <tableViewController title="Inventory Scene" id="ILv-AT-Nf4" customClass="InventoryTableViewController" customModule="MyMedicines" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ERa-EV-Gbe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,7 +182,7 @@ Y2luZXMgY2FiaW5ldCBub3chA
                                     <color key="backgroundColor" red="0.71372549019999998" green="0.90196078430000004" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="tintColor" red="0.71372549019999998" green="0.90196078430000004" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <prototypes>
-                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="pgW-Ww-eoY" userLabel="medicineCell">
+                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="medicineCell" rowHeight="160" id="pgW-Ww-eoY">
                                             <rect key="frame" x="0.0" y="28" width="371" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pgW-Ww-eoY" id="Xam-Kd-SD4">
@@ -273,9 +273,9 @@ Y2luZXMgY2FiaW5ldCBub3chA
                                                 <color key="backgroundColor" red="0.754144327" green="0.90196078430000004" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.754144327" green="0.90196078430000004" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                             </tableViewCellContentView>
-                                            <accessibility key="accessibilityConfiguration" identifier="medicineCell" label="medicineCell"/>
                                         </tableViewCell>
                                     </prototypes>
+                                    <sections/>
                                 </tableView>
                             </subviews>
                             <color key="backgroundColor" red="0.82244944850000001" green="0.92179042840000003" blue="0.89201484630000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -309,7 +309,7 @@ Y2luZXMgY2FiaW5ldCBub3chA
         <!--Add new-->
         <scene sceneID="Y7S-hV-pas">
             <objects>
-                <viewController title="Add new" id="Qlg-Yb-Xrs" customClass="AddNewViewController" customModule="MyMedicines" sceneMemberID="viewController">
+                <viewController title="Add new" id="Qlg-Yb-Xrs" customClass="AddNewViewController" customModule="MyMedicines" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Ub-NJ-A58"/>
                         <viewControllerLayoutGuide type="bottom" id="WS8-BP-Dkd"/>
@@ -330,7 +330,7 @@ Y2luZXMgY2FiaW5ldCBub3chA
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8C-4e-nCn">
-                                <rect key="frame" x="-1" y="117" width="67" height="29"/>
+                                <rect key="frame" x="-1" y="117" width="68" height="29"/>
                                 <color key="backgroundColor" red="0.08696752042" green="0.44700473549999997" blue="0.745911777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Back">
@@ -351,7 +351,7 @@ Y2luZXMgY2FiaW5ldCBub3chA
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="12" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HAI-n3-Yua" userLabel=" nameField">
-                                        <rect key="frame" x="112" y="20" width="235" height="19"/>
+                                        <rect key="frame" x="113" y="20" width="234" height="19"/>
                                         <accessibility key="accessibilityConfiguration" identifier="nameField" label="nameField"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>

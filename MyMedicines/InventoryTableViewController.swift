@@ -48,10 +48,10 @@ class InventoryTableViewController : UITableViewController{
         request.sortDescriptors = [sort]
         
        let asyncRequest = NSAsynchronousFetchRequest<MyMedicine>(fetchRequest: request) { (result)
-           in
-           self.medicines = result.finalResult ?? []
-           self.tableView.reloadData()
-        }
+          in
+          self.medicines = result.finalResult ?? []
+          self.tableView.reloadData()
+          }
         
        do{
           try context.execute(asyncRequest)
@@ -75,7 +75,7 @@ class InventoryTableViewController : UITableViewController{
 }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "medicineCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "medicineCell", for: indexPath)
         
         let medicine = medicines[indexPath.row]
         

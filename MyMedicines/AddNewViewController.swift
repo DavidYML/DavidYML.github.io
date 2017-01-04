@@ -50,7 +50,7 @@ class AddNewViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     @IBAction func save(_ sender: UIButton) {
         
-        let medicine = NSEntityDescription.insertNewObject(forEntityName: "Medicine", into: context) as! MyMedicine
+        let medicine = NSEntityDescription.insertNewObject(forEntityName: "MyMedicine", into: context) as! MyMedicine
         
     
         medicine.name = nameField.text
